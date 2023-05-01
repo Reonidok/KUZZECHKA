@@ -1,5 +1,19 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model KUZZECHKA.Models.SurveyViewModel
+
+<form asp-action="Submit" method="post">
+    <div>
+        <label asp-for="Question1"></label>
+        <input asp-for="Answer1" type="radio" value="Yes"> Да
+        <input asp-for="Answer1" type="radio" value="No"> Нет
+    </div>
+
+    <div>
+        <label asp-for="Question2"></label>
+        <input asp-for="Answer2" type="radio" value="Yes"> Да
+        <input asp-for="Answer2" type="radio" value="No"> Нет
+    </div>
+
+    <!-- Добавьте больше вопросов и ответов по мере необходимости -->
+
+    <button href="*/ThankYou.cshtml" type="submit">Отправить</button>
+</form>
