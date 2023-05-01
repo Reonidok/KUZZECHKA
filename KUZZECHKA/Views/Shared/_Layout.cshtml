@@ -30,6 +30,12 @@
                         </li>
                     </ul>
                 </div>
+                <select id="language-select">
+                    <option value="en-US">English</option>
+                    <option value="ru-RU">Русский</option>
+                    <option value="fr-FR">Français</option>
+                    <option value="ar-SA">العربية</option>
+                </select>
                 <partial name="_LoginPartial"/>
             </div>
         </nav>
@@ -48,6 +54,14 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.getElementById("language-select").addEventListener("change", function () {
+            var selectedLanguage = this.value;
+            var url = new URL(window.location.href);
+            url.searchParams.set("culture", selectedLanguage);
+            window.location.href = url.href;
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -2,6 +2,7 @@ using KUZZECHKA.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +12,18 @@ builder.Services.AddDbContext<SurveyContext>(options =>
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<SurveyContext>();
 
+builder.Services.AddLocalization(options => { options.ResourcesPath = "Resources"; });
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    options.SetDefaultCulture("en-Us");
+    options.AddSupportedUICultures("en-US", "de-DE", "ja-JP");
+    options.FallBackToParentUICultures = true;
+    options.RequestCultureProviders.Remove((IRequestCultureProvider)typeof(AcceptLanguageHeaderRequestCultureProvider));
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages().AddViewLocalization();
 builder.Services.AddMvc();
 var app = builder.Build();
 
