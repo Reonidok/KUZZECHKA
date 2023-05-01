@@ -7,7 +7,7 @@ namespace KUZZECHKA.Models
         public int Id { get; set; }
 
         [Required]
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
 
         public string Answer1 { get; set; }
         public string Answer2 { get; set; }

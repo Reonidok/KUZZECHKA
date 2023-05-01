@@ -3,18 +3,24 @@ using KUZZECHKA.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
+
 namespace KUZZECHKA.Controllers
 {
     public class SurveyController : Controller
     {
         private readonly SurveyContext _context;
-
+        
         public SurveyController(SurveyContext context)
         {
             _context = context;
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult ThankYou() 
         {
             return View();
         }
