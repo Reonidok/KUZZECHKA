@@ -16,7 +16,7 @@ builder.Services.AddLocalization(options => { options.ResourcesPath = "Resources
 builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
     options.SetDefaultCulture("en-Us");
-    options.AddSupportedUICultures("en-US", "de-DE", "ja-JP");
+    options.AddSupportedUICultures("en-US", "ar-SA", "fr-FR");
     options.FallBackToParentUICultures = true;
     options.RequestCultureProviders.Remove((IRequestCultureProvider)typeof(AcceptLanguageHeaderRequestCultureProvider));
 });
