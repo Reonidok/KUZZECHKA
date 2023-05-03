@@ -36,7 +36,20 @@ namespace KUZZECHKA.Controllers
             {
                 UserId = userId,
                 Answer1 = model.Answer1,
-                Answer2 = model.Answer2
+                Answer2 = model.Answer2,
+                Answer3 = model.Answer3,
+                Answer4 = model.Answer4,
+                Answer5 = model.Answer5,
+                Answer6 = model.Answer6,
+                Answer7 = model.Answer7,
+                Answer8 = model.Answer8,
+                Answer9 = model.Answer9,
+                Answer10 = model.Answer10,
+                Answer11 = model.Answer11,
+                Answer12 = model.Answer12,
+                Answer13 = model.Answer13,
+                Answer14 = model.Answer14,
+                Answer15 = model.Answer15,
                 // Добавьте больше ответов по мере необходимости
             };
 
