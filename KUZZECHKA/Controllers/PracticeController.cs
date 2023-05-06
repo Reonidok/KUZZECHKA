@@ -15,5 +15,40 @@ namespace KUZZECHKA.Controllers
         {
             return View();
         }
+
+        public IActionResult Bank()
+        {
+            return View();
+        }
+
+        public IActionResult Gym()
+        {
+            return View();
+        }
+
+        public IActionResult Hospital()
+        {
+            return View();
+        }
+
+        public IActionResult Rent()
+        {
+            return View();
+        }
+
+        public IActionResult Shop()
+        {
+            return View();
+        }
+
+        public IActionResult Transport()
+        {
+            return View();
+        }
+
+        public IActionResult University() 
+        {
+            return View();
+        }
     }
 }

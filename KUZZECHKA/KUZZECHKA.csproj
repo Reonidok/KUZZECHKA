@@ -26,9 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Languages\" />
-    <Folder Include="Resources\Views\Home\" />
-    <Folder Include="Resources\Views\Survey\" />
+    <Folder Include="Resources\VIews\Practice\" />
   </ItemGroup>
 
 </Project>

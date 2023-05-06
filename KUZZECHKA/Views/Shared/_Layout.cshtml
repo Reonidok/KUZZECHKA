@@ -1,4 +1,19 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+
+@{
+    var cultures = new Dictionary<string, string>
+    {
+        { "ru-RU", "Русский" },
+        { "en-US", "English" },
+        { "fr-FR", "Français" },
+        { "ar-SA", "عربي" }
+    };
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,19 +35,20 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Practice" asp-action="Index">Practice</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Practice" asp-action="Index">@Localizer["Практика"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Survey" asp-action="Index">Survey</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Survey" asp-action="Index">@Localizer["Опросник"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["О нас"]</a>
                         </li>
                     </ul>
-                    <select id="language-select">
-                        <option value="ru-RU">Русский</option>
-                        <option value="en-US">English</option>
-                        <option value="ar-SA">العربية</option>
+                    <select id="cultureSelect">
+                        @foreach (var culture in cultures)
+                        {
+                            <option value="@culture.Key">@culture.Value</option>
+                        }
                     </select>
                     <partial name="_LoginPartial" />
                 </div>
@@ -47,20 +63,22 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - KUZZECHKA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2023 - KUZZECHKA - <a asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["Политика"]</a>
         </div>
     </footer>
+    @section Scripts {
+        <script>
+            document.getElementById("cultureSelect").addEventListener("change", function () {
+                var culture = this.value;
+                var url = "/Home/Index?culture=" + culture;
+                window.location.href = url;
+            });
+        </script>
+    }
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script>
-        document.getElementById("language-select").addEventListener("change", function () {
-            var selectedLanguage = this.value;
-            var url = new URL(window.location.href);
-            url.searchParams.set("culture", selectedLanguage);
-            window.location.href = url.href;
-        });
-    </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

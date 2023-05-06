@@ -1,6 +1,8 @@
 ﻿using KUZZECHKA.Data;
 using KUZZECHKA.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
+using System.Globalization;
 using System.Security.Claims;
 
 
@@ -9,14 +11,17 @@ namespace KUZZECHKA.Controllers
     public class SurveyController : Controller
     {
         private readonly SurveyContext _context;
-        
-        public SurveyController(SurveyContext context)
+        private readonly IStringLocalizer<HomeController> _localizer;
+
+        public SurveyController(SurveyContext context, IStringLocalizer<HomeController> localizer)
         {
             _context = context;
+            _localizer = localizer;
         }
 
         public IActionResult Index()
         {
+
             return View();
         }
 
@@ -25,7 +30,6 @@ namespace KUZZECHKA.Controllers
             return View();
         }
 
-        [HttpPost]
         public async Task<IActionResult> Submit(SurveyViewModel model)
         {
             // Получите идентификатор текущего пользователя

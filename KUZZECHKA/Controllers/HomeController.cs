@@ -1,6 +1,9 @@
 ﻿using KUZZECHKA.Models;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using System.Diagnostics;
+using System.Globalization;
 
 namespace KUZZECHKA.Controllers
 {
