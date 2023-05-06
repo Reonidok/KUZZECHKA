@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="Resources\VIews\Practice\" />
+    <Folder Include="wwwroot\source\images\" />
   </ItemGroup>
 
 </Project>

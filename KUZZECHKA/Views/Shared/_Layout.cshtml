@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">KUZZECHKA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -24,40 +24,41 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Practice" asp-action="Index">@Localizer["Практика"]</a>
+                            <a class="nav-link link-primary text-dark" asp-area="" asp-controller="Practice" asp-action="Index">@Localizer["Практика"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Survey" asp-action="Index">@Localizer["Опросник"]</a>
+                            <a class="nav-link link-primary text-dark" asp-area="" asp-controller="Survey" asp-action="Index">@Localizer["Опросник"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["О нас"]</a>
+                            <a class="nav-link link-primary text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["О нас"]</a>
                         </li>
                     </ul>
-                    <select id="cultureSelect">
+                    <select class="form-select-sm" id="cultureSelect">
                         <option value="ru-RU">Русский</option>
                         <option value="en-US">English</option>
                         <option value="fr-FR">Français</option>
                         <option value="ar-SA">عرب</option>
                     </select>
-                    <partial name="_LoginPartial" />
+                    <partial name="_LoginPartial"/>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - KUZZECHKA - <a asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["Политика"]</a>
-        </div>
-    </footer>
-   
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2023 - KUZZECHKA - <a asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["Политика"]</a>
+                <p class="float-end"><a href="#">Back to top</a></p>
+            </div>
+        </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script>
         document.getElementById("cultureSelect").addEventListener("change", function () {
