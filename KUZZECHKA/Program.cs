@@ -1,10 +1,12 @@
 using KUZZECHKA.Data;
+using KUZZECHKA.Middlewares;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using System.Globalization;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,7 +47,9 @@ builder.Services.AddLocalization();
 builder.Services.AddMvcCore();
 
 var app = builder.Build();
+
 app.UseRequestLocalization();
+app.UseMiddleware<CultureMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

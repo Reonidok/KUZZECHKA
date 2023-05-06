@@ -2,17 +2,6 @@
 
 @inject IViewLocalizer Localizer
 
-
-@{
-    var cultures = new Dictionary<string, string>
-    {
-        { "ru-RU", "Русский" },
-        { "en-US", "English" },
-        { "fr-FR", "Français" },
-        { "ar-SA", "عربي" }
-    };
-}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,10 +34,10 @@
                         </li>
                     </ul>
                     <select id="cultureSelect">
-                        @foreach (var culture in cultures)
-                        {
-                            <option value="@culture.Key">@culture.Value</option>
-                        }
+                        <option value="ru-RU">Русский</option>
+                        <option value="en-US">English</option>
+                        <option value="fr-FR">Français</option>
+                        <option value="ar-SA">عرب</option>
                     </select>
                     <partial name="_LoginPartial" />
                 </div>
@@ -66,19 +55,30 @@
             &copy; 2023 - KUZZECHKA - <a asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["Политика"]</a>
         </div>
     </footer>
-    @section Scripts {
-        <script>
-            document.getElementById("cultureSelect").addEventListener("change", function () {
-                var culture = this.value;
-                var url = "/Home/Index?culture=" + culture;
-                window.location.href = url;
-            });
-        </script>
-    }
+   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.getElementById("cultureSelect").addEventListener("change", function () {
+            var culture = this.value;
+            document.cookie = "culture=" + culture;
+            window.location.reload();
+        });
 
+        window.addEventListener("load", function () {
+            var culture = getCookie("culture");
+            if (culture) {
+                document.getElementById("cultureSelect").value = culture;
+            }
+        });
+
+        function getCookie(name) {
+            var value = "; " + document.cookie;
+            var parts = value.split("; " + name + "=");
+            if (parts.length == 2) return parts.pop().split(";").shift();
+        }
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
