@@ -1,5 +1,93 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+<div class="container" style="width:1180px">
+    <table class="table table-hover pt-4">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">В больнице</th>
+                <th scope="col">In the hospital</th>
+                <th scope="col">À l'hôpital</th>
+                <th scope="col">في المستشفى</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Мне нужна медицинская помощь.</td>
+                <td>I need medical assistance.</td>
+                <td>J'ai besoin d'assistance médicale.</td>
+                <td> أحتاج مساعدة طبية</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Я чувствую себя плохо.</td>
+                <td>I am feeling unwell.</td>
+                <td>Je me sens mal.</td>
+                <td> أشعر بالسوء.</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Я попал в аварию.</td>
+                <td>I have been in an accident.</td>
+                <td>J'ai eu un accident.</td>
+                <td>لقد تعرضت لحادث</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>У меня болит (часть тела).</td>
+                <td> I have a pain in (body part).</td>
+                <td>J'ai mal (partie du corps).</td>
+                <td>لدي ألم (جزء من جسدي</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>У меня есть медицинские противопоказания.</td>
+                <td>I have a medical condition.</td>
+                <td>J'ai un problème médical.</td>
+                <td>لدي حالة طبية</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Мне срочно нужен врач.</td>
+                <td>I need to see a doctor urgently</td>
+                <td>J'ai un besoin urgent d'un médecin.</td>
+                <td>أحتاج إلى طبيب على وجه السرعة.</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>У меня аллергия на (вещество).</td>
+                <td>I have an allergy to (substance).</td>
+                <td>Je suis allergique à (substance).</td>
+                <td> لدي حساسية من (المادة)</td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>Мне нужно лекарство.</td>
+                <td>I need medication.</td>
+                <td>J'ai besoin de médicaments.</td>
+                <td>أحتاج دواء.</td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>Мне нужно быть госпитализированным.</td>
+                <td>I need to be admitted to the hospital.</td>
+                <td>J'ai besoin d'être hospitalisé.</td>
+                <td>أحتاج إلى دخول المستشفى</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>Пожалуйста, помогите мне.</td>
+                <td>Please, help me.</td>
+                <td>S'il vous plaît, aidez-moi.</td>
+                <td>من فضلك ساعدني</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="custom-btn">
+        <a asp-controller="Practice" asp-action="Index" class="previous round">&#8249;</a>
+        <a asp-controller="Practice" asp-action="Rent" class="next round">&#8250;</a>
+    </div>
+</div>

@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\VIews\Practice\" />
+    <Folder Include="Resources\Areas\Identity\Pages\Account\" />
     <Folder Include="wwwroot\source\images\" />
   </ItemGroup>
 

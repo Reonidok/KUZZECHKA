@@ -117,19 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Вверх" xml:space="preserve">
-    <value>أعلى</value>
-  </data>
-  <data name="О нас" xml:space="preserve">
-    <value>معلومات عنا</value>
-  </data>
-  <data name="Опросник" xml:space="preserve">
-    <value>استبيان</value>
-  </data>
-  <data name="Политика" xml:space="preserve">
-    <value>سياسة</value>
-  </data>
-  <data name="Практика" xml:space="preserve">
-    <value>يمارس</value>
+  <data name="About" xml:space="preserve">
+    <value>&lt;div class="container pt-2 pb-2" style="width: 1180px"&gt;
+     Our company offers modern language courses for foreign students in Russian in Arabic, English, French.
+     &lt;br /&gt;&lt;br /&gt;
+     ​We are preparing foreign students to study at Russian institutions of higher education. &lt;br /&gt;
+     With our courses you will be able to quickly and easily master Russian as your mother tongue.&lt;br/&gt;
+     Our program is divided into modules - theory, practice, and conversational situations. &lt;br/&gt;
+     Having studied all these modules, it will be easy for you to communicate with native Russian speakers.&lt;br /&gt;
+     &lt;br /&gt;&lt;br /&gt;
+     Welcome to our website for teaching Russian!&lt;br/&gt;
+     We are a team of experienced and highly qualified teachers who will be happy to help you learn Russian.&lt;br /&gt;
+     &lt;br /&gt;&lt;br /&gt;
+     We know that learning Russian can be difficult and challenging, especially for students who do not have it as their first language.&lt;br/&gt;
+     That's why we created this site, &lt;br /&gt;
+     to help you through this difficult but very important language learning process.&lt;br/&gt;
+     &lt;br /&gt;&lt;br /&gt;
+     We offer a wide range of courses and programs to suit your needs and level of knowledge. &lt;br /&gt;
+     Our team of highly qualified teachers uses modern teaching methods and technologies, &lt;br /&gt;
+     to make the process of learning the Russian language interesting, accessible and effective.&lt;br /&gt;
+     &lt;br /&gt;&lt;br /&gt;
+     We also provide an opportunity to practice the language in real life. &lt;br /&gt;
+     We are convinced that this is a key moment in learning any language. We hold various events, &lt;br/&gt;
+     including chatting with native speakers to help students expand their vocabulary and improve their communication skills.&lt;br/&gt;
+     &lt;br /&gt;&lt;br /&gt;
+     We are proud that our students achieve excellent results in the study of the Russian language,&lt;br /&gt;
+     and we strive to help each of them achieve their goals.&lt;br /&gt;
+     &lt;br /&gt;&lt;br/&gt;
+     We are always ready to answer your questions and help you in any situation. &lt;br /&gt;
+     Contact us for help, and we will be happy to share our knowledge and experience in learning the Russian language with you. &lt;br /&gt;
+     We are sure that with us you will be able to achieve amazing results!&lt;br /&gt;
+     ​Our program is designed for students from different parts of the world of our big planet.&lt;br/&gt;
+     As part of the training program, you will be provided with English, Arabic and French for the most comfortable learning.&lt;br/&gt;
+&lt;/div&gt;</value>
   </data>
 </root>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="text-1" xml:space="preserve">
+    <value>&lt;div class="container"&gt;
+    Un adjectif est une partie du discours qui dénote un signe d'un objet.&lt;br /&gt;
+    L'adjectif répond aux questions : "quoi ?", "quoi ?", "quoi ?"&lt;br /&gt;
+    Les adjectifs qualitatifs ont une caractéristique constante - ils
+    avoir des formes longues et courtes.&lt;br /&gt;
+    Cet article détaille les types
+    des ratios de deux formes et des exemples illustratifs sont donnés pour consolider
+    matériel.&lt;br /&gt;
+    Quelles sont les formes des adjectifs ?&lt;br /&gt;
+    En russe, on distingue les formes complètes et courtes des adjectifs.
+    &lt;br /&gt;
+    &lt;br /&gt;
+    Ce trait grammatical est permanent et n'est propre qu'aux
+    adjectif de qualité :&lt;br /&gt;
+    &lt;ul style="list-style:none"&gt;
+        &lt;li&gt;
+            1. Adjectifs complets - formes fléchies attributives
+            (changement selon le sexe, le nombre, les cas), de sens neutre. DANS
+            les phrases sont le plus souvent utilisées comme définitions. Exemples
+            adjectifs pleins : sec, froid, rouge, soigné.
+        &lt;/li&gt;
+        &lt;li&gt;
+            2. Adjectifs courts - formes prédicatives, indéclinables
+            (changer uniquement par genre et nombre, ne pas décliner par cas),
+            diffèrent en valeur comptable. Les propositions comprennent généralement
+            prédicat nominal. Exemples d'adjectifs courts : loin, jeune, blanc,
+            doux.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;br /&gt;
+    Types de ratios des formes complètes et courtes des adjectifs.&lt;br /&gt;
+    Les formes complètes et courtes des adjectifs n'ont pas tous les mots de ce
+    parties du discours.&lt;br /&gt;
+    Par la présence (ou l'absence) de cette grammaire
+    Les adjectifs sont divisés en trois groupes :
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;ul style="list-style:none"&gt;
+        &lt;li&gt;
+            1. Les adjectifs qui ont à la fois des formes complètes et courtes
+            (bon c'est bien, gai c'est gai, frais c'est frais, intelligent c'est intelligent). Bref
+            les formes sont formées en ajoutant des adjectifs raccourcis à la racine
+            terminaisons -а (-я), -о (-е), -ы (-и) et zéro (mignon - mignon, fort -
+            fermement).
+        &lt;/li&gt;
+        &lt;li&gt;
+            2. Les adjectifs qui n'ont que la forme complète. Ceux-ci inclus -
+            adjectifs avec suffixes d'évaluation (grand, vert),
+            adjectifs de qualité formés à partir d'adjectifs relatifs (café,
+            marron, laiteux), appelant les couleurs des animaux (baie, marron) et
+            adjectifs non dérivés (étrangers, anciens).
+        &lt;/li&gt;
+        &lt;li&gt;
+            3. Les adjectifs qui n'ont qu'une forme courte
+            (trop petit, nécessaire, beaucoup, heureux).
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="text-2" xml:space="preserve">
+    <value>&lt;div class="container"&gt;
+    Un nom est une partie du discours qui fait référence à un objet et
+    changements par cas et numéros.&lt;br /&gt;
+    Le genre des noms est une caractéristique grammaticale constante.
+    La catégorie de genre des noms est une caractéristique grammaticale,
+    qui nous renseigne sur l'affiliation générique d'un objet, d'un vivant
+    l'être, le phénomène ou son absence. &lt;br /&gt;
+    * Seuls les noms au singulier ont un genre.
+    &lt;br /&gt;&lt;br /&gt;
+    Trois types de noms :&lt;br /&gt;
+    &lt;ul style="list-style:none"&gt;
+
+        &lt;li&gt;
+            1. Mâle - lui, le mien.&lt;br /&gt;
+            Noms masculins au nominatif &lt;br /&gt;
+            singulier ont les terminaisons -а, -я et zéro.&lt;br /&gt;
+            Exemples de noms masculins : frère, table, papa, aigle.&lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            2. Femme - elle, la mienne.
+            Noms féminins nominatifs
+            singulier ont les terminaisons -а, -я et zéro.
+            Exemples de noms féminins : terre, chat, amour.&lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            3. Moyen - c'est à moi.&lt;br /&gt;
+            Noms neutres au nominatif &lt;br /&gt;
+            singulier ont les terminaisons -о, -е.&lt;br /&gt;
+            Exemples de noms neutres : argent, soleil, lac.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;br /&gt;
+    Déterminer le genre des noms
+    Le genre d'un nom peut être déterminé par la grammaire
+    forme de l'adjectif qui lui est associé. &lt;br /&gt;
+    Comme ceci :&lt;br /&gt;
+    &lt;ul style="list-style:none"&gt;
+        &lt;li&gt;
+            1. Les noms masculins s'accordent avec les adjectifs,
+            qui répondent aux questions : à qui ? Qui? (veste rouge, grand
+            boîte);
+        &lt;/li&gt;
+        &lt;li&gt;
+            2. Les noms féminins s'accordent avec les adjectifs,
+            qui répondent aux questions : à qui ? qui? (presse fraîche, voisin triste) ;
+        &lt;/li&gt;
+        &lt;li&gt;
+            3. Les noms du genre moyen sont compatibles avec les adjectifs,
+            qui répondent aux questions : à qui ? qui? (chat ronronnant, haut
+            bâtiment).
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    * la catégorie de genre ne peut être déterminée pour les mots qui
+    sont utilisés uniquement au pluriel : jour, papier peint, jeans,
+    cache-cache, ciseaux, encre, échecs, crépuscule.&lt;br /&gt;&lt;br /&gt;
+    Les noms animés ont le même genre que le genre.
+    appartenant à un être vivant, personne :&lt;br /&gt;
+    grand-père, interlocuteur - mari. r. ;&lt;br /&gt;
+    soeur, vendeuse R &lt;br /&gt;&lt;br /&gt;
+    Orthographe correcte : nom masculin/féminin/neutre
+    gentil.&lt;br /&gt;
+    Mais c'est faux : au masculin/féminin/neutre. La chose est
+    que "dans" signifie une caractéristique non permanente. Et le nom toujours
+    il y a un numéro, un cas, et c'est toujours d'un certain genre.&lt;br /&gt;
+    Genre des noms indéclinables
+    Les noms indéclinables sont empruntés à
+    mots dans d'autres langues qui ont la même grammaire
+    formulaire dans tous les cas.&lt;br /&gt;
+    Pour déterminer le genre d'un nom indéclinable, il faut
+    tenir compte du sens du mot et de la catégorie de l'animé/inanimé.
+    Noms animés qui désignent une personne par
+    genre, sont classés comme masculins ou féminins dans
+    signifiant :&lt;br /&gt;
+    maestro brillant - mari. r.&lt;br /&gt;
+    célèbre couturier - mari. r.&lt;br /&gt;
+    belle madame - épouses. r.&lt;br /&gt;
+    jeune femme - femelle r.&lt;br /&gt;&lt;br /&gt;
+    Les mots étrangers qui nomment les oiseaux et les animaux ont
+    catégorie masculine, si le contexte n'indique pas une femme :&lt;br /&gt;
+    colibri lumineux - mari. r.&lt;br /&gt;
+    cacatoès hétéroclite - mari. r.&lt;br /&gt;
+    chimpanzé à fourrure - mari. p&lt;br /&gt;
+    méfiant chimpanzé - femelle. r.&lt;br /&gt;&lt;br /&gt;
+    En russe, les mots empruntés conservent le même genre qu'ils étaient
+    dans une version étrangère. Ceci explique le fait qu'en russe moderne
+    les mots "piano", "café", "kangourou" sont masculins. "Salut",
+    "châssis", "domino" sont neutres et "châle" sont féminins.&lt;br /&gt;
+    Les noms inanimés sont le plus souvent neutres :&lt;br /&gt;
+    métro propre ;&lt;br /&gt;
+    spectacle amusant ;&lt;br /&gt;
+    café cosy ;&lt;br /&gt;
+    taxi rapide.&lt;br /&gt;&lt;br /&gt;
+    Certains noms inanimés ont un genre déterminé par
+    mot clé :&lt;br /&gt;
+    chou-rave vert (chou) - pour les femmes. r.&lt;br /&gt;
+    suluguni salé (fromage) - mari. r.&lt;br /&gt;
+    grosse tornade (ouragan) - mari. r.&lt;br /&gt;
+    longue avenue (rue) - femelle. r.&lt;br /&gt;
+    délicieux kiwi (baie) - femelle. r.&lt;br /&gt;
+    pénalité de score (coup franc) - masculin. r.&lt;br /&gt;&lt;br /&gt;
+    Dans les noms géographiques, vous devez comprendre de quel type d'objet nous parlons.
+    et déterminez-en le genre :&lt;br /&gt;
+    Ville (Peter, Gelendzhik) - mari. r.&lt;br /&gt;
+    Rivière (Mississippi, Congo) - femelle. r.&lt;br /&gt;
+    Lac (Baïkal, Onega) - cf. r.&lt;br /&gt;&lt;br /&gt;
+    Le genre d'abréviations peut être déterminé par le mot principal. Mais avant
+    l'abréviation doit être déchiffrée :&lt;br /&gt;
+    L'Université d'État de Moscou a continué de recruter des étudiants. — État de Moscou
+    l'université a continué à recruter des étudiants.&lt;br /&gt;
+    MKAD sera reconstruit. — Moscou
+    &lt;/div&gt;</value>
+  </data>
+  <data name="text-3" xml:space="preserve">
+    <value>&lt;div class="container"&gt;
+    Le cas est une catégorie grammaticale de certaines parties du discours,
+    qui aide à coordonner les mots les uns avec les autres dans une phrase.&lt;br /&gt;
+    En changeant les mots par cas, ils changent la fin.&lt;br /&gt;&lt;br /&gt;
+    6 cas de la langue russe :&lt;br /&gt;
+    *Les chiffres entre parenthèses sont le numéro de série du boîtier en russe.&lt;br /&gt;&lt;br /&gt;
+    &lt;ul style="list-style:none"&gt;
+        &lt;li style="padding-bottom:10px;"&gt;
+            1) Cas nominatif (1). C'est la forme du mot donnée dans
+            dictionnaire.&lt;br /&gt; Nous apprenons toujours de nouveaux mots au nominatif.
+            Par exemple : C'est (quoi ?) une maison.&lt;br /&gt;
+            (Qui ?) Maman cuisine bien.&lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li style="padding-bottom:10px;"&gt;
+            2) Cas prépositionnel (6).&lt;br /&gt;
+            Par exemple : j'habite (où ?) à Minsk (où ?) dans la rue Chervyakova.&lt;br /&gt;
+            Je travaille (où ?) dans une école.&lt;br /&gt;
+            Ma sœur étudie (où ?) à l'université.&lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li style="padding-bottom:10px;"&gt;
+            3) Accusatif (4).&lt;br /&gt;
+            Par exemple : je vois (quoi ?) du ciel bleu.&lt;br /&gt;
+            J'aime (qui ?) ma mère.&lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li style="padding-bottom:10px;"&gt;
+            4) Cas datif (3).&lt;br /&gt;
+            Par exemple : je suis content (quoi ?) du beau temps.&lt;br /&gt;
+            J'offre (à qui ?) un livre à un ami.&lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li style="padding-bottom:10px;"&gt;
+            5) Cas génitif (2).&lt;br /&gt;
+            Par exemple : je n'ai pas (quoi ?) de voiture.&lt;br /&gt;
+            J'aime me promener sans (qui ?) un chien.&lt;br /&gt;
+        &lt;/li&gt;
+        &lt;li style="padding-bottom:10px;"&gt;
+            6) Mallette instrumentale (5).&lt;br /&gt;
+            Par exemple : Il a (quoi ?) la grippe.&lt;br /&gt;
+            Elle travaille (par qui ?) en tant que médecin.&lt;br /&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Аренда жилья" xml:space="preserve">
+    <value>Location de biens</value>
+  </data>
+  <data name="В Банке" xml:space="preserve">
+    <value>Dans la banque</value>
+  </data>
+  <data name="В Больнице" xml:space="preserve">
+    <value>À l'hôpital</value>
+  </data>
+  <data name="В Магазине" xml:space="preserve">
+    <value>Dans la boutique</value>
+  </data>
+  <data name="В Спортзале" xml:space="preserve">
+    <value>En sport</value>
+  </data>
+  <data name="В Транспорте" xml:space="preserve">
+    <value>Dans les transports</value>
+  </data>
+  <data name="В Университете" xml:space="preserve">
+    <value>À l'Université</value>
+  </data>
+  <data name="Имена прилагательные" xml:space="preserve">
+    <value>Adjectifs</value>
+  </data>
+  <data name="Имена существительные" xml:space="preserve">
+    <value>Noms</value>
+  </data>
+  <data name="На Улице" xml:space="preserve">
+    <value>Dans la rue</value>
+  </data>
+  <data name="Падежи" xml:space="preserve">
+    <value>Cas</value>
+  </data>
+</root>
