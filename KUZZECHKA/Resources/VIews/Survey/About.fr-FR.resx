@@ -117,19 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Вверх" xml:space="preserve">
-    <value>أعلى</value>
-  </data>
-  <data name="О нас" xml:space="preserve">
-    <value>معلومات عنا</value>
-  </data>
-  <data name="Опросник" xml:space="preserve">
-    <value>استبيان</value>
-  </data>
-  <data name="Политика" xml:space="preserve">
-    <value>سياسة</value>
-  </data>
-  <data name="Практика" xml:space="preserve">
-    <value>يمارس</value>
+  <data name="About" xml:space="preserve">
+    <value>&lt;div class="container pt-2 pb-2" style="width:1180px"&gt;
+    Notre compagnie propose des cours de langues vivantes pour étudiants étrangers en russe en arabe, anglais, français.
+    &lt;br /&gt;&lt;br /&gt;
+    Nous préparons les étudiants étrangers à étudier dans les établissements d'enseignement supérieur russes. &lt;br /&gt;
+    Avec nos cours, vous serez en mesure de maîtriser rapidement et facilement le russe comme langue maternelle.&lt;br /&gt;
+    Notre programme est divisé en modules - théorie, pratique et situations de conversation. &lt;br /&gt;
+    Après avoir étudié tous ces modules, il vous sera facile de communiquer avec des russophones natifs.&lt;br /&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    Bienvenue sur notre site Web pour enseigner le russe !&lt;br /&gt;
+    Nous sommes une équipe de professeurs expérimentés et hautement qualifiés qui se feront un plaisir de vous aider à apprendre le russe.&lt;br /&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    Nous savons qu'apprendre le russe peut être difficile et stimulant, en particulier pour les étudiants qui ne l'ont pas comme langue maternelle.&lt;br /&gt;
+    C'est pourquoi nous avons créé ce site, &lt;br /&gt;
+    pour vous aider dans ce processus d'apprentissage linguistique difficile mais très important.&lt;br /&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    Nous proposons une large gamme de cours et de programmes adaptés à vos besoins et à votre niveau de connaissances. &lt;br /&gt;
+    Notre équipe d'enseignants hautement qualifiés utilise des méthodes et des technologies d'enseignement modernes, &lt;br /&gt;
+    rendre le processus d'apprentissage de la langue russe intéressant, accessible et efficace.&lt;br /&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    Nous offrons également la possibilité de pratiquer la langue dans la vraie vie. &lt;br /&gt;
+    Nous sommes convaincus que c'est un moment clé dans l'apprentissage de n'importe quelle langue. Nous organisons divers événements, &lt;br /&gt;
+    y compris discuter avec des locuteurs natifs pour aider les élèves à élargir leur vocabulaire et à améliorer leurs compétences en communication.&lt;br /&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    Nous sommes fiers que nos étudiants obtiennent d'excellents résultats dans l'étude de la langue russe,&lt;br /&gt;
+    et nous nous efforçons d'aider chacun d'eux à atteindre ses objectifs.&lt;br /&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    Nous sommes toujours prêts à répondre à vos questions et à vous aider dans toutes les situations. &lt;br /&gt;
+    Contactez-nous pour obtenir de l'aide, et nous serons heureux de partager nos connaissances et notre expérience dans l'apprentissage de la langue russe avec vous. &lt;br /&gt;
+    Nous sommes sûrs qu'avec nous, vous pourrez obtenir des résultats incroyables !&lt;br /&gt;
+    ​Notre programme est conçu pour les étudiants de différentes parties du monde de notre grande planète.&lt;br /&gt;
+    Dans le cadre du programme de formation, l'anglais, l'arabe et le français vous seront fournis pour un apprentissage des plus confortables.&lt;br /&gt;
+&lt;/div&gt;</value>
   </data>
 </root>

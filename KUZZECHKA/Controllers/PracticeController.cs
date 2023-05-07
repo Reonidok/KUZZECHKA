@@ -36,7 +36,7 @@ namespace KUZZECHKA.Controllers
             return View();
         }
 
-        public IActionResult Shop()
+        public IActionResult Store()
         {
             return View();
         }
@@ -47,6 +47,11 @@ namespace KUZZECHKA.Controllers
         }
 
         public IActionResult University() 
+        {
+            return View();
+        }
+
+        public IActionResult Street() 
         {
             return View();
         }

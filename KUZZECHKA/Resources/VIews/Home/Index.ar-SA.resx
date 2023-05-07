@@ -117,7 +117,79 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Добро Пожаловать" xml:space="preserve">
-    <value>مرحباً</value>
+  <data name="В этом блоке мы предоставляем вам краткую информацию для обучения чтобы вы могли ознакомиться" xml:space="preserve">
+    <value>في هذه المجموعة ، نوفر لك معلومات موجزة عن التدريب حتى تتمكن من التعرف على نفسك</value>
+  </data>
+  <data name="Все за всех и все за одного." xml:space="preserve">
+    <value>الكل للجميع والجميع للواحد.</value>
+  </data>
+  <data name="Все наши преподаватели и ученики всегда готовы помочь друг другу, если что-то не так." xml:space="preserve">
+    <value>جميع مدرسينا وطلابنا مستعدون دائمًا لمساعدة بعضهم البعض إذا كان هناك خطأ ما.</value>
+  </data>
+  <data name="Вы можете найти нас во многих городах в разных странах" xml:space="preserve">
+    <value>يمكنك أن تجدنا في العديد من المدن في بلدان مختلفة</value>
+  </data>
+  <data name="Вы можете прочесть наш блок 'О нас' чтобы лучше ознакомится" xml:space="preserve">
+    <value>يمكنك قراءة قسم "نبذة عنا" للتعرف علينا بشكل أفضل.</value>
+  </data>
+  <data name="Зарегистрироваться" xml:space="preserve">
+    <value>يسجل</value>
+  </data>
+  <data name="И не забывайте." xml:space="preserve">
+    <value>ولا تنسى.</value>
+  </data>
+  <data name="Многие из нас готовы вам помочь, в изучении того или иного языка ведь это весело." xml:space="preserve">
+    <value>كثير منا على استعداد لمساعدتك ، لأنه من الممتع تعلم لغة.</value>
+  </data>
+  <data name="Мы все одна большая семья." xml:space="preserve">
+    <value>نحن جميعًا عائلة واحدة كبيرة.</value>
+  </data>
+  <data name="Мы лучшие." xml:space="preserve">
+    <value>نحن الأفضل.</value>
+  </data>
+  <data name="Мы предоставляем услуги" xml:space="preserve">
+    <value>نحن نقدم الخدمات</value>
+  </data>
+  <data name="Наша компания поможет вам пройти практику в одном из наших офисов расположенных в мире." xml:space="preserve">
+    <value>ستساعدك شركتنا على إكمال تدريب داخلي في أحد مكاتبنا الموجودة في العالم.</value>
+  </data>
+  <data name="Наши уроки помогут вам общаться с разными людьми на многих языках" xml:space="preserve">
+    <value>ستساعدك دروسنا على التواصل مع أشخاص مختلفين بعدة لغات</value>
+  </data>
+  <data name="Перейти" xml:space="preserve">
+    <value>يذهب</value>
+  </data>
+  <data name="Подробнее" xml:space="preserve">
+    <value>أكثر</value>
+  </data>
+  <data name="Политика" xml:space="preserve">
+    <value>سياسة</value>
+  </data>
+  <data name="Политика нашей компании с которой вы можете ознакомиться для дальнейшего с нами сотрудничества" xml:space="preserve">
+    <value>سياسة شركتنا التي يمكنك قراءتها لمزيد من التعاون معنا</value>
+  </data>
+  <data name="Помните о практике." xml:space="preserve">
+    <value>تذكر أن تتدرب.</value>
+  </data>
+  <data name="Почему именно мы." xml:space="preserve">
+    <value>لماذا نحن.</value>
+  </data>
+  <data name="Проходите наши уроки" xml:space="preserve">
+    <value>تحقق من دروسنا</value>
+  </data>
+  <data name="Теория" xml:space="preserve">
+    <value>نظرية</value>
+  </data>
+  <data name="Тесты" xml:space="preserve">
+    <value>الاختبارات</value>
+  </data>
+  <data name="Тесты на которые вы можете ответить на разных языках и позже мы сообщим вам о результате" xml:space="preserve">
+    <value>الاختبارات التي يمكنك الإجابة عليها بلغات مختلفة وسنخبرك بالنتيجة لاحقًا</value>
+  </data>
+  <data name="У нас есть Офисы" xml:space="preserve">
+    <value>لدينا مكاتب</value>
+  </data>
+  <data name="Узнать больше" xml:space="preserve">
+    <value>لتعلم المزيد</value>
   </data>
 </root>

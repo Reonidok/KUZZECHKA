@@ -3,13 +3,13 @@
 @inject IViewLocalizer Localizer
 @model KUZZECHKA.Models.SurveyViewModel
 
-<div class="container">
+<div class="container" style="width: 1180px">
 
     <form asp-action="Submit" method="post">
         <h3 class="text-center">@Localizer["Имена прилагательные"]</h3>
         <div class="m-2">
             <label asp-for="Question1">
-                @Localizer["Какое прилагательное нужно использовать в предложении: 'Мои друзья живут в ___ доме'"]
+                @Localizer["Q1"]
             </label>
             <div >
                 <input class="form-check-input" asp-for="Answer1" type="radio" value="Yes"> @Localizer["новом"]
@@ -20,7 +20,7 @@
 
         <div class="m-2">
             <label asp-for="Question2">
-                @Localizer["Какое прилагательное нужно использовать в предложении: 'Она умная и ___ девушка'"]
+                @Localizer["Q2"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer2" type="radio" value="No"> @Localizer["красивый"]
@@ -31,7 +31,7 @@
 
         <div class="m-2">
             <label asp-for="Question3">
-                @Localizer["Какое прилагательное нужно использовать в предложении: 'Я купил ___ телефон за очень большие деньги'"]
+                @Localizer["Q3"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer3" type="radio" value="Yes"> @Localizer["новый"]
@@ -42,7 +42,7 @@
 
         <div class="m-2">
             <label asp-for="Question4">
-                @Localizer["Какое прилагательное нужно использовать в предложении: 'Это ___ страница в моем блокноте'"]
+                @Localizer["Q4"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer4" type="radio" value="Yes"> @Localizer["пустой"]
@@ -53,7 +53,7 @@
 
         <div class="m-2">
             <label asp-for="Question5">
-                @Localizer["Какое прилагательное нужно использовать в предложении: 'Я вижу ___ здание за окно'"]
+                @Localizer["Q5"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer5" type="radio" value="Yes"> @Localizer["высокий"]
@@ -102,7 +102,7 @@
                 @Localizer["Какое существительное является множественным числом?"]
             </label>
             <div>
-                <input class="form-check-input" asp-for="Answer9" type="radio" value="No"> @Localizer["Красивое"]
+                <input class="form-check-input" asp-for="Answer9" type="radio" value="No"> @Localizer["S1"]
                 <input class="form-check-input" asp-for="Answer9" type="radio" value="No"> @Localizer["Карандаш"]
                 <input class="form-check-input" asp-for="Answer9" type="radio" value="Yes"> @Localizer["Карандаши"]
             </div>
@@ -123,7 +123,7 @@
 
         <div class="m-2">
             <label asp-for="Question11">
-                @Localizer["Какой падеж у слова СТОЛ в предложении 'На столе лежит книга'?"]
+                @Localizer["L1"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer11" type="radio" value="Yes"> @Localizer["Именительный"]
@@ -135,7 +135,7 @@
 
         <div class="m-2">
             <label asp-for="Question12">
-                @Localizer["Какой падеж у слова КОШКА в предложении 'Моя кошка спит на окне'?"]
+                @Localizer["L2"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer12" type="radio" value="Yes"> @Localizer["Именительный"]
@@ -147,7 +147,7 @@
 
         <div class="m-2">
             <label asp-for="Question13">
-                @Localizer["Какой падеж у слова ЦВЕТОК в предложении 'Я купила цветок своей подруге'?"]
+                @Localizer["L3"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer13" type="radio" value="No"> @Localizer["Именительный"]
@@ -159,7 +159,7 @@
 
         <div class="m-2">
             <label asp-for="Question14">
-                @Localizer["Какой падеж у слова КНИГА в предложении 'Я учу увлекательную книгу'?"]
+                @Localizer["L4"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer14" type="radio" value="No"> @Localizer["Именительный"]
@@ -171,7 +171,7 @@
 
         <div class="m-2">
             <label asp-for="Question15">
-                @Localizer["Какой падеж у слова МАМА в предложении 'Я подарил цветы своей маме'?"]
+                @Localizer["L5"]
             </label>
             <div>
                 <input class="form-check-input" asp-for="Answer15" type="radio" value="No"> @Localizer["Именительный"]
@@ -184,7 +184,7 @@
 
         <!-- Добавьте больше вопросов и ответов по мере необходимости -->
 
-        <button class="btn-success m-1" type="submit">Отправить</button>
+        <button class="btn-success m-1" type="submit">@Localizer["Send"]</button>
     </form>
 
 </div>
