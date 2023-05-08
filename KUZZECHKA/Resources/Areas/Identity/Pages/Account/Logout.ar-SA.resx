@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="String1" xml:space="preserve">
-    <value>Votre sondage a été enregistré avec succès !</value>
+    <value>اضغط هنا للتسجيل الخروج</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>&lt;p&gt;لقد قمت بتسجيل الخروج بنجاح من التطبيق.&lt;/p&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>تسجيل خروج</value>
   </data>
 </root>

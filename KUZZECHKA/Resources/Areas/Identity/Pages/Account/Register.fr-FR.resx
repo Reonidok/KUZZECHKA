@@ -117,7 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Info" xml:space="preserve">
+    <value>&lt;div&gt;
+                             &lt;p&gt;
+                                 Aucun service d'authentification externe n'est configuré. Consultez cet &lt;a href="https://go.microsoft.com/fwlink/?LinkID=532715"&gt;article
+                                 sur la configuration de cette application ASP.NET pour prendre en charge la connexion via des services externes&lt;/a&gt;.
+                             &lt;/p&gt;
+                         &lt;/div&gt;</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
   <data name="String1" xml:space="preserve">
-    <value>Votre sondage a été enregistré avec succès !</value>
+    <value>Créer un nouveau compte.</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Utilisez un autre service pour vous inscrire.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Inscription</value>
   </data>
 </root>

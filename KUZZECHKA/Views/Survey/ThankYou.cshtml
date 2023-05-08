@@ -1,10 +1,13 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@{
     var successMessage = TempData["SuccessMessage"] as string;
 }
+
+@inject IViewLocalizer Localizer
 
 @if (!string.IsNullOrEmpty(successMessage))
 {
     <div class="alert alert-success">
-        @successMessage
+        @Localizer["String1"]
     </div>
 }

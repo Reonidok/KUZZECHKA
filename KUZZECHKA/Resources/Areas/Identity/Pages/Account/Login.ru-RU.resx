@@ -117,7 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Email" xml:space="preserve">
+    <value>Повторно отправить подтверждение по электронной почте</value>
+  </data>
+  <data name="Forgor" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>&lt;div&gt;
+                             &lt;p&gt;
+                                 Внешние службы аутентификации не настроены. См. эту &lt;a href="https://go.microsoft.com/fwlink/?LinkID=532715"&gt;статью.
+                                 о настройке этого приложения ASP.NET для поддержки входа через внешние службы&lt;/a&gt;.
+                             &lt;/p&gt;
+                         &lt;/div&gt;</value>
+  </data>
+  <data name="Reg" xml:space="preserve">
+    <value>Зарегистрируйтесь как новый пользователь</value>
+  </data>
+  <data name="Serv" xml:space="preserve">
+    <value>Используйте другой сервис для входа.</value>
+  </data>
   <data name="String1" xml:space="preserve">
-    <value>Votre sondage a été enregistré avec succès !</value>
+    <value>Используйте локальную учетную запись для входа.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Авторизоваться</value>
   </data>
 </root>

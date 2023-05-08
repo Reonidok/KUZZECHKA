@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+<div class="container" style="width:1180px">
+    @Localizer["Content"]
+</div>
+<script>
+    document.getElementById("cultureSelect").addEventListener("change", function () {
+        var culture = this.value;
+        document.cookie = "culture=" + culture;
+        window.location.reload();
+    });
+
+    window.addEventListener("load", function () {
+        var culture = getCookie("culture");
+        if (culture) {
+            document.getElementById("cultureSelect").value = culture;
+        }
+    });
+
+    function getCookie(name) {
+        var value = "; " + document.cookie;
+        var parts = value.split("; " + name + "=");
+        if (parts.length == 2) return parts.pop().split(";").shift();
+    }
+</script>

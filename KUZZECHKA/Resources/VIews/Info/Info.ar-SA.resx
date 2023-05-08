@@ -117,7 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="String1" xml:space="preserve">
-    <value>Votre sondage a été enregistré avec succès !</value>
+  <data name="Content" xml:space="preserve">
+    <value>&lt;h4&gt; لدينا مكاتب في أوروبا وآسيا وأمريكا الشمالية &lt;/ h4&gt;
+      &lt;br /&gt; &lt;br /&gt;
+      &lt;p&gt; مكاتب في أوروبا ومقرها فرنسا وبريطانيا العظمى وألمانيا وإيطاليا والسويد &lt;/ p&gt; &lt;br /&gt;
+      &lt;p&gt; مكاتب في آسيا ومقرها تركيا والمملكة العربية السعودية والفلبين &lt;/ p&gt; &lt;br /&gt;
+      &lt;p&gt; مكاتب في الولايات المتحدة الأمريكية وكندا &lt;/ p&gt; &lt;br /&gt;
+      &lt;hr class = "featurette-divider" /&gt;
+      &lt;p&gt; يقع مقرنا في أكبر المدن مثل نيويورك وأنقرة وباريس وبرلين ولندن وغيرها. &lt;/ p&gt; &lt;br /&gt; &lt;br /&gt;
+      &lt;p class = "alert-success"&gt; نحن في انتظارك &lt;/ p&gt;</value>
   </data>
 </root>

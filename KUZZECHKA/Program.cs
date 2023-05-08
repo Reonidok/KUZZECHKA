@@ -1,7 +1,6 @@
 using KUZZECHKA.Data;
 using KUZZECHKA.Middlewares;
 using Microsoft.EntityFrameworkCore;
-using System.Configuration;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
