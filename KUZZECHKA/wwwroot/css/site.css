@@ -163,3 +163,17 @@ body {
 .round {
     border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+    .practice-btn {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .radio {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+
+}

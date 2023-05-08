@@ -25,6 +25,5 @@ namespace KUZZECHKA.Models
         public string Answer14 { get; set; }
         public string Answer15 { get; set; }
 
-        // Добавьте больше свойств для хранения ответов на вопросы опроса
     }
 }
